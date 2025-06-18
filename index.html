@@ -62,37 +62,37 @@
           </div>
         </div>
 
-      <div class="project-card">
-        <img src="https://m.media-amazon.com/images/I/71gFjHn48mL.jpg" alt="Kaggle Bosch Dataset">
-        <div class="project-info">
-          <h3>Análise de Desempenho de Produção – Kaggle Bosch</h3>
-          <p>Usou o conjunto de dados da Bosch no Kaggle para criar um pipeline Spark/Hadoop que processa registros de sensores, aplica ML para prever falhas e persiste em Cassandra.</p>
+        <div class="project-card">
+          <img src="https://m.media-amazon.com/images/I/71gFjHn48mL.jpg" alt="Kaggle Bosch Dataset">
+          <div class="project-info">
+            <h3>Análise de Produção com Big Data – Kaggle Bosch</h3>
+            <p>Processamento massivo com Apache Beam via Cloud Dataflow para registros de sensores industriais. Aplicação de modelos preditivos no Vertex AI e armazenamento em Bigtable.</p>
+          </div>
         </div>
-      </div>
 
-      <div class="project-card">
-        <img src="https://imagens.ebc.com.br/NyaC7tV54akPfS05FZtVkwaXevg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/incendios_florestais.jpg?itok=dc-yubtN-" alt="Kaggle Fire Dataset">
-        <div class="project-info">
-          <h3>Detecção de Incêndios Florestais</h3>
-          <p>Treinou CNN em PyTorch e Spark ML usando o dataset de imagens de incêndios do Kaggle, orquestrando pré‑processamento com Airflow e dockerização do workflow.</p>
+        <div class="project-card">
+          <img src="https://imagens.ebc.com.br/NyaC7tV54akPfS05FZtVkwaXevg=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/atoms/image/incendios_florestais.jpg?itok=dc-yubtN-" alt="Kaggle Fire Dataset">
+          <div class="project-info">
+            <h3>Detecção de Incêndios com IA e GCP</h3>
+            <p>Pipeline orquestrado com Cloud Composer (Airflow), pré-processamento em Dataflow, treinamento de CNN em Vertex AI, com armazenamento de dados e logs no Cloud Storage e Logging.</p>
+          </div>
         </div>
-      </div>
 
-      <div class="project-card">
-        <img src="https://media4.manhattan-institute.org/sites/e21/files/iStock-171300440.jpg" alt="Capital Bikeshare Dataset">
-        <div class="project-info">
-          <h3>Análise de Demanda – Capital Bikeshare</h3>
-          <p>Consumiu o dataset do Capital Bikeshare (Washington, DC), transformou com Pandas/dbt, treinou modelos de regressão no Scikit‑learn e visualizou no Power BI.</p>
+        <div class="project-card">
+          <img src="https://media4.manhattan-institute.org/sites/e21/files/iStock-171300440.jpg" alt="Capital Bikeshare Dataset">
+          <div class="project-info">
+            <h3>Previsão de Demanda – Capital Bikeshare</h3>
+            <p>Transformações modeladas com dbt no BigQuery, modelos treinados com AutoML Tables e visualização interativa via Looker Studio (Data Studio).</p>
+          </div>
         </div>
-      </div>
 
-      <div class="project-card">
-        <img src="https://k1planejamento.com.br/wp-content/uploads/2023/04/7.jpg" alt="Kaggle Housing Prices Dataset">
-        <div class="project-info">
-          <h3>Previsão de Preços de Imóveis</h3>
-          <p>Usou o famoso Housing Prices do Kaggle para um pipeline ETL em Airflow, transformações em dbt e regressão avançada no Scikit‑learn, com dashboard em Metabase.</p>
+        <div class="project-card">
+          <img src="https://k1planejamento.com.br/wp-content/uploads/2023/04/7.jpg" alt="Kaggle Housing Prices Dataset">
+          <div class="project-info">
+            <h3>Previsão de Preços com GCP Lakehouse</h3>
+            <p>Pipeline ELT com Cloud Composer, dados brutos no Cloud Storage, modelagem com dbt em BigQuery, e regressão via Vertex AI, com visualização em dashboards no Looker Studio.</p>
+          </div>
         </div>
-      </div>
 
   
       </div>
@@ -107,44 +107,46 @@
       <div class="card">
         <h3>📚 Modelagem & Bancos de Dados</h3>
         <ul>
-          <li>Modelagem dimensional e relacional (estrela, snowflake)</li>
-          <li>Bancos SQL (PostgreSQL e Oracle)</li>
-          <li>Bancos NoSQL(MongoDB e Cassandra)</li>
-          <li>Data Lake</li>
-          <li>Otimização de queries e performance</li>
+          <li>Modelagem dimensional e relacional (estrelas, snowflake, 3FN)</li>
+          <li>Bancos de dados relacionais: PostgreSQL, Oracle e BigQuery</li>
+          <li>Bancos NoSQL para alta escala: MongoDB, Cassandra e Firestore</li>
+          <li>Arquiteturas de armazenamento: Data Lake e Lakehouse</li>
+          <li>Otimização de consultas, particionamento e tuning de performance</li>
         </ul>
       </div>
   
       <div class="card">
         <h3>🔄 Pipelines & ETL/ELT</h3>
         <ul>
-          <li>Construção de pipelines de dados</li>
-          <li>ETL/ELT com SQL, Python e ferramentas de orquestração</li>
-          <li>Uso de Docker para ambientes estruturados</li>
-          <li>Integração de dados de múltiplas fontes</li>
+          <li>Desenvolvimento de pipelines escaláveis com Dataflow (Apache Beam)</li>
+          <li>ETL/ELT com SQL e Python, aplicando boas práticas de transformação</li>
+          <li>Contêineres com Docker para ambientes isolados e reprodutíveis</li>
+          <li>Ingestão e integração de dados estruturados e não estruturados (APIs, bancos, arquivos)</li>
         </ul>
       </div>
-  
+
       <div class="card">
-        <h3>☁️ Cloud & Big Data</h3>
+        <h3>☁️ Google Cloud & Big Data</h3>
         <ul>
-          <li>Fundamentos AWS, Azure, GCP (via Google Cloud Academy)</li>
-          <li>Processamento distribuído com Spark/Hadoop</li>
-          <li>Streaming (Kafka, ingestão em tempo real)</li>
-          <li>Data Warehouses e Lakehouse (Redshift, BigQuery, S3)</li>
+          <li>BigQuery para análise de dados em larga escala (DWH serverless)</li>
+          <li>Cloud Storage como Data Lake central (armazenamento escalável)</li>
+          <li>Dataflow e Apache Beam para pipelines de dados em lote e streaming</li>
+          <li>Cloud Pub/Sub para ingestão de dados em tempo real</li>
+          <li>Cloud Composer (Apache Airflow) para orquestração de workflows</li>
+          <li>Integração com APIs e fontes externas via Python em Cloud Functions</li>
+          <li>Modelagem de dados e arquitetura Lakehouse com GCP</li>
         </ul>
       </div>
   
       <div class="card">
         <h3>🤖 IA, Orquestração e Governança</h3>
         <ul>
-          <li>Elementos de IA em pipelines de dados</li>
-          <li>Orquestração com Airflow, Data Factory</li>
-          <li>Data governance e controle de acesso</li>
-          <li>Contêineres com Docker</li>
+          <li>Integração de IA em pipelines com BigQuery ML e Vertex AI</li>
+          <li>Orquestração com Cloud Composer (Airflow) e Data Factory (Azure)</li>
+          <li>Governança de dados com IAM, políticas de acesso e catalogação</li>
+          <li>Contêinerização de jobs com Docker e deploy via Cloud Run</li>
         </ul>
       </div>
-  
     </div>
   </section>
   <section class="certifications-section">

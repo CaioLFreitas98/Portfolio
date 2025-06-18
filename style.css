@@ -66,6 +66,7 @@ section {
 
 h2 {
   margin-bottom: 20px;
+  text-align: center;
   color: #00ffe7;
   font-size: 2rem;
 }
@@ -145,7 +146,8 @@ ul li {
 
 .certifications-section h2 {
   margin-bottom: 40px;
-  color: #fff;
+  color: #00ffe7;
+  text-align: center;
   font-size: 2rem;
 }
 
